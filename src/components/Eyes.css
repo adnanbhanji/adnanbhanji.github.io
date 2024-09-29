@@ -1,0 +1,39 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+} */
+
+.title {
+  font-size: 4rem;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+
+.eye-container {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.eye {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pupil {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}

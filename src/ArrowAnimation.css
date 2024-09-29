@@ -1,0 +1,19 @@
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 2rem; /* Adjust size as needed */
+  animation: slideDown 1s infinite alternate; /* Animation settings */
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px); /* Adjust the distance */
+  }
+}
