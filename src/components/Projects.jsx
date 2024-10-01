@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import chatbot_project from "../assets/chatbot_project.png";
 import netflix_project from "../assets/netflix_project.jpg";
+import nft_project from "../assets/nft_project.png";
+import jarvis_project from "../assets/jarvis_project.gif";
+import bank_project from "../assets/bank_project.png";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
@@ -10,11 +13,21 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
-import { FaToolbox } from "react-icons/fa";
 import { SiHuggingface } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
 import { AiFillOpenAI } from "react-icons/ai";
 import { SiGooglegemini } from "react-icons/si";
+import { SiXrp } from "react-icons/si";
+import { SiStreamlit } from "react-icons/si";
+import { DiRedis } from "react-icons/di";
+import { FaVuejs } from "react-icons/fa";
+import { SiGithubactions } from "react-icons/si";
+import { SiAzurefunctions } from "react-icons/si";
+import { VscAzure } from "react-icons/vsc";
+import { FaDocker } from "react-icons/fa";
+import { DiSqllite } from "react-icons/di";
+import { SiFlask } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const projectSets = [
   [
@@ -45,12 +58,60 @@ const projectSets = [
         { name: "CSS", icon: FaCss3Alt },
         { name: "HTML", icon: FaHtml5 },
         { name: "Git", icon: FaGitAlt },
-        { name: "Tailwind", icon: FaToolbox },
+        { name: "Tailwind", icon: RiTailwindCssFill },
       ],
       link: "https://github.com/adnanbhanji/netflix_build",
     },
   ],
-  // Add more sets as needed
+  [
+    {
+      id: 3,
+      image: nft_project,
+      title: "Minting NFTs for Farmers' Data",
+      techIcons: [
+        { name: "XRP", icon: SiXrp },
+        { name: "Python", icon: FaPython },
+        { name: "HuggingFace", icon: SiHuggingface },
+        { name: "Tensorflow", icon: SiTensorflow },
+        { name: "Git", icon: FaGitAlt },
+        { name: "AWS", icon: FaAws },
+        { name: "OpenAI", icon: AiFillOpenAI },
+      ],
+      link: "https://github.com/beaamoo/green-elephants",
+    },
+  ],
+  [
+    {
+      id: 4,
+      image: jarvis_project,
+      title: "Jarvis: AI Virtual Assistant",
+      techIcons: [
+        { name: "Python", icon: FaPython },
+        { name: "Streamlit", icon: SiStreamlit },
+        { name: "Redis", icon: DiRedis },
+        { name: "Git", icon: FaGitAlt },
+        { name: "OpenAI", icon: AiFillOpenAI },
+      ],
+      link: "https://github.com/IERoboticsClub/workshops/tree/main/ai-chatbot-assistant",
+    },
+  ],
+  [
+    {
+      id: 5,
+      image: bank_project,
+      title: "End to End Banking System",
+      techIcons: [
+        { name: "Vue.js", icon: FaVuejs },
+        { name: "GitHub Actions", icon: SiGithubactions },
+        { name: "Azure Functions", icon: SiAzurefunctions },
+        { name: "Azure", icon: VscAzure },
+        { name: "Docker", icon: FaDocker },
+        { name: "SQLite", icon: DiSqllite },
+        { name: "Flask", icon: SiFlask },
+      ],
+      link: "https://github.com/orgs/IE-bank-team/repositories",
+    },
+  ],
 ];
 
 function Projects() {
@@ -167,9 +228,12 @@ function Projects() {
                           {project.techIcons.map((tech, index) => (
                             <div
                               key={`tech-${project.id}-${index}`}
-                              className="flex items-center p-1"
+                              className="flex items-center p-1 relative group"
                             >
                               <tech.icon className="w-6 h-6 text-cyan-400" />
+                              <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                                {tech.name}
+                              </span>
                             </div>
                           ))}
                         </div>

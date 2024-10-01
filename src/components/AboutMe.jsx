@@ -100,11 +100,10 @@ function Eyes() {
 const projects = [
   { title: "Hiking", emoji: "⛰️", left: "10%", top: "10%" },
   { title: "Movies", emoji: "▶️", left: "50%", top: "50%" },
-  { title: "Traveling", emoji: "🛬 ", left: "71%", top: "20%" },
+  { title: "Traveling", emoji: "🛬 ", left: "55%", top: "20%" },
   { title: "Sports", emoji: "🏓", left: "30%", top: "30%" },
-  { title: "Cooking", emoji: "🍳", left: "70%", top: "70%" },
-  { title: "Startup Enthusiast", emoji: "🚀", left: "1%", top: "70%" },
-  { title: "Cycling", emoji: "🚲", left: "40%", top: "75%" },
+  { title: "Cooking", emoji: "🍳", left: "55%", top: "70%" },
+  { title: "Cycling", emoji: "🚲", left: "15%", top: "60%" },
 ];
 
 function DraggableProject({ project, containerSize }) {
@@ -227,7 +226,7 @@ function AboutMe1() {
           <p className="text-sm my-2 mb-4 ml-2 text-center">
             {" "}
             {/* Reduced font size and margin */}
-            Explore the books I&apos;m currently reading
+            The book I&apos;m currently reading is:
           </p>
           <div className="flex justify-center items-center w-full">
             <img

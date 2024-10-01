@@ -14,21 +14,21 @@ const experiences = [
     company: "Integrasys",
     period: "June 2023 - August 2023 | Madrid, Spain",
     description:
-      "Interned as a Software Engineer at INTEGRASYS Group, leading the development of an Earth Observation Tool that integrated over eight GeoTIFF files into interactive maps using Cesium JS. Improved satellite data analysis and object detection through AngularJS and Three.js, facilitating comparisons with multiple 3D models. The project was selected for presentation at the WSBW Paris Event, highlighting its significant impact on the industry.",
+      "Interned as a Software Engineer at INTEGRASYS Group. Led the design and development of an Earth Observation Tool (EOT) that enhanced object detection, enabling the identification of 10,000+ 3D models on a CesiumJS map using AngularJS and Three.js. Integrated the tool with the company’s existing SaaS product, enhancing functionality, which led to its presentation at the WSBW Paris 2023 Event. Additionally, automated onboarding workflows with CI/CD pipelines using GitHub Actions and created comprehensive documentation for the EOT, reducing developer ramp-up time by 20%.",
   },
   {
     title: "AI Engineer",
     company: "Kyra Group",
     period: "March 2023 - December 2023 | Madrid, Spain",
     description:
-      "Interned as an AI Engineer at Kyra Group, focusing on prompt engineering with various LLMs, including GPT-3.5, Bard, and Gemini. Played a key role in developing an AI ecosystem platform, enabling over 7,000 connections among five stakeholders. Additionally, created a Flutter application that integrated AI algorithms with the front-end, enhancing user interaction and accessibility.",
+      "Interned as an AI Engineer at Kyra Group, focusing on prompt engineering with various LLMs, including GPT-3.5, Bard, and Gemini. Played a key role in developing an AI ecosystem platform, enabling over 1M+ connections among five stakeholders. Additionally, created a Flutter application that integrated AI algorithms with the front-end, enhancing user interaction and accessibility.",
   },
   {
     title: "Software Engineer",
     company: "Miqazza",
     period: "June 2022 - August 2022 | Madrid, Spain",
     description:
-      "Interned at MIQAZZA, focusing on app development and user experience. Enhanced the platform by developing multiple features with Bubble.io and optimized SQL queries, achieving a 15% performance improvement. Additionally, created a Python algorithm that increased roommate matching accuracy for students by 25%.",
+      "Interned as a Software Development Engineer at Miqazza in Madrid, Spain, from June 2022 to August 2022. Developed a Python algorithm that intelligently paired 250+ students with roommates, leveraging collaborative filtering to improve match accuracy by 15%. Transitioned the codebase from Bubble.io to a custom React and Node.js architecture, significantly boosting the platforms performance and scalability.",
   },
 ];
 
