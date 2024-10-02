@@ -131,7 +131,7 @@ function Testimonials() {
                     </div>
                   </div>
                   <a
-                    href="https://www.linkedin.com/in/your-profile/recommendations"
+                    href="https://www.linkedin.com/in/adnanbhanji/recommendations"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-cyan-400 text-lg mt-4 inline-block"
