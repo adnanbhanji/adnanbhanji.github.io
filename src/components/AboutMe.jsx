@@ -174,8 +174,8 @@ function AboutMe1() {
     </span>
   );
 
-  const glimpse = "A ".split("").map(highlightLetter);
-  const glimpse2 = " INTO MY WORLD.".split("").map(highlightLetter);
+  const glimpse = "A L".split("").map(highlightLetter);
+  const glimpse2 = "K INTO MY WORLD.".split("").map(highlightLetter);
   const glimpse3 = "LOOK INTO MY WORLD.".split("").map(highlightLetter);
 
   const containerRef = useRef(null);
