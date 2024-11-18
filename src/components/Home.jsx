@@ -48,8 +48,9 @@ function Home() {
             <p className="text-base sm:text-lg font-sans mb-12">
               <span className="font-semibold text-xs sm:text-sm">ABOUT: </span>
               Data-driven Computer Science student with experience in several
-              domains of software engineering, including Web & App Development,
-              AI (Machine Learning, NLP, & Recommendation Systems), and Data.
+              domains of software engineering, including Data, Web & App
+              Development, and AI (Machine Learning, NLP, & Recommendation
+              Systems).
             </p>
             <div className="flex justify-between items-center">
               <p className="text-base sm:text-lg font-semibold">Scroll down</p>

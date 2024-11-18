@@ -21,14 +21,14 @@ const experiences = [
     company: "Kyra Group",
     period: "March 2023 - December 2023 | Madrid, Spain",
     description:
-      "Interned as an AI Engineer at Kyra Group, focusing on prompt engineering with various LLMs, including GPT-3.5, Bard, and Gemini. Played a key role in developing an AI ecosystem platform, enabling over 1M+ connections among five stakeholders. Additionally, created a Flutter application that integrated AI algorithms with the front-end, enhancing user interaction and accessibility.",
+      "Interned as an AI Engineer at Kyra Group, focusing on data and prompt engineering with various LLMs, including GPT-3.5, Bard, and Gemini. Played a key role in developing an AI ecosystem platform, enabling over 1M+ connections among five stakeholders. Additionally, created a Flutter application that integrated AI algorithms with the front-end, enhancing user interaction and accessibility.",
   },
   {
-    title: "Software Engineer",
+    title: "Data Engineer",
     company: "Miqazza",
     period: "June 2022 - August 2022 | Madrid, Spain",
     description:
-      "Interned as a Software Development Engineer at Miqazza in Madrid, Spain, from June 2022 to August 2022. Developed a Python algorithm that intelligently paired 250+ students with roommates, leveraging collaborative filtering to improve match accuracy by 15%. Transitioned the codebase from Bubble.io to a custom React and Node.js architecture, significantly boosting the platforms performance and scalability.",
+      "Interned as a Data Intern at Miqazza in Madrid, Spain, from June 2022 to August 2022. Developed a Python algorithm using collaborative filtering to intelligently pair 250+ students with roommates, improving match accuracy by 15%. Restructured user data models in SQL to enhance data quality, storage efficiency, and retrieval speed. Analyzed student feedback and engagement metrics, identifying trends that refined the matching algorithm and increased satisfaction by 10%.",
   },
 ];
 
